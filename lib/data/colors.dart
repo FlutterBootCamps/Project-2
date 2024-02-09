@@ -20,6 +20,11 @@ List<Color> designColors = const [
   Color(0xffE9E9E8),
   Color(0xffBABABA),
   Color(0xff757474),
-  Color(0xff72BFC7)
+  Color(0xff72BFC7),
+  Color(0xffE2DDDA),
+  Color(0xff7E7B79),
+  Color(0xffC9C4C2),
+  Color(0xff979391),
+  Color(0xffDF7070)
 
 ];

@@ -9,7 +9,7 @@ class IconTextContainer extends StatelessWidget {
       required this.padding, required this.text, required this.fontSize});
 
   final double width;
-  final String image;
+  final Widget image;
   final String text;
   final Color color;
   final double padding;
@@ -23,7 +23,7 @@ class IconTextContainer extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset(image,),
+          image,
           Padding(
             padding: EdgeInsets.only(bottom: padding),
             child: Text(

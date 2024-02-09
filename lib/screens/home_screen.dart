@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             IconTextContainer(
               width: 51,
-              image: "icons/flame.png",
+              image: Image.asset("icons/flame.png"),
               text: "3",
               color: designColors[3],
               padding: 0,
@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
             ),
             IconTextContainer(
               width: 134,
-              image: "icons/treasure.png",
+              image: Image.asset("icons/treasure.png"),
               text: "1423 XP",
               color: designColors[7],
               padding: 0,
@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
             ),
             IconTextContainer(
               width: 77,
-              image: "icons/heart.png",
+              image: Image.asset("icons/heart.png"),
               text: "∞",
               color: designColors[8],
               padding: 10,

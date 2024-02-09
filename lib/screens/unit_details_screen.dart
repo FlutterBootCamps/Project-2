@@ -1,4 +1,3 @@
-import 'package:educational_kids_game/components/icon_progress_bar.dart';
 import 'package:educational_kids_game/components/icon_text_container.dart';
 import 'package:educational_kids_game/components/lesson_container.dart';
 import 'package:educational_kids_game/components/unit_info_container.dart';
@@ -34,14 +33,14 @@ class UnitDetailsScreen extends StatelessWidget {
           children: [
             IconTextContainer(
                 width: 60,
-                image: "icons/crown.png",
+                image: Image.asset("icons/crown.png"),
                 color: designColors[14],
                 padding: 0,
                 text: "$noOfCrowns",
                 fontSize: 25),
             IconTextContainer(
                 width: 80,
-                image: "icons/gem.png",
+                image: Image.asset("icons/gem.png"),
                 color: designColors[15],
                 padding: 0,
                 text: "213",

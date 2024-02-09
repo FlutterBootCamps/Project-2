@@ -31,7 +31,7 @@ class Course extends StatelessWidget {
               ),
               IconTextContainer(
                   width: 84,
-                  image: "icons/crown.png",
+                  image: Image.asset("icons/crown.png"),
                   color: designColors[11],
                   padding: 0,
                   text: "$courseCrowns/40",
