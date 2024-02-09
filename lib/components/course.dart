@@ -45,7 +45,7 @@ class Course extends StatelessWidget {
               mainAxisSpacing: 21,
               childAspectRatio: 1 / 0.79,
               scrollDirection: Axis.horizontal,
-              children: List.generate(noOfUnits, (index) => (index == 0) ? Unit(unitNumber: 1, unitProgress: firstUnitProgress) : const LockedUnit()),
+              children: List.generate(noOfUnits, (index) => (index == 0) ? Unit(unitNumber: 1, unitProgress: firstUnitProgress, courseName: courseName, crownNumber: courseCrowns,) : const LockedUnit(), ),
             ),
           ),
         ],

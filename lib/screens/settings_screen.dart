@@ -1,3 +1,4 @@
+import 'package:educational_kids_game/data/colors.dart';
 import 'package:flutter/material.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -6,6 +7,12 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        toolbarHeight: 71,
+        backgroundColor: designColors[9],
+        centerTitle: true,
+        title: const Text("Settings", style: TextStyle(fontSize: 30, ))
+      ),
       body: Center(
         child: Image.asset("images/under_construction.png", )
       ),

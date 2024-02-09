@@ -1,19 +1,24 @@
 import 'package:educational_kids_game/components/icon_progress_bar.dart';
 import 'package:educational_kids_game/data/colors.dart';
+import 'package:educational_kids_game/screens/unit_details_screen.dart';
 import 'package:flutter/material.dart';
 
 class Unit extends StatelessWidget {
   const Unit({
-    super.key, required this.unitNumber, required this.unitProgress,
+    super.key, required this.unitNumber, required this.unitProgress, required this.crownNumber, required this.courseName,
   });
 
   final int unitNumber;
   final double unitProgress;
+  final String courseName;
+  final int crownNumber;
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) => UnitDetailsScreen(courseName: courseName, noOfCrowns: crownNumber, progress: unitProgress,),));
+      },
       child: Container(
         width: 179,
         height: 227,

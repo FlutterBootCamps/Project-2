@@ -23,7 +23,7 @@ class IconTextContainer extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset(image),
+          Image.asset(image,),
           Padding(
             padding: EdgeInsets.only(bottom: padding),
             child: Text(
