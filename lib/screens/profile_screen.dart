@@ -146,7 +146,13 @@ class ProfileScreen extends StatelessWidget {
                 const SizedBox(
                   height: 37,
                 ),
-                const InfoContainerButton(image: "images/cat.png", title: "Invite your friends", description: "Tell your friends it’s free and fun to learn on Mental up!",buttonText: "INVITE FRIENDS",)
+                const InfoContainerButton(
+                  image: "images/cat.png",
+                  title: "Invite your friends",
+                  description:
+                      "Tell your friends it’s free and fun to learn on Mental up!",
+                  buttonText: "INVITE FRIENDS",
+                )
               ],
             ),
           ),
@@ -155,4 +161,3 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 }
-

@@ -12,65 +12,44 @@ class Logo extends StatelessWidget {
         text: TextSpan(
             text: "M",
             style: TextStyle(
-                fontFamily: "Ribeye",
-                fontSize: 40,
-                color: designColors[3]),
+                fontFamily: "Ribeye", fontSize: 40, color: designColors[3]),
             children: [
           TextSpan(
               text: "E",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[4])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[4])),
           TextSpan(
               text: "N",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[5])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[5])),
           TextSpan(
               text: "T",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[6])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[6])),
           TextSpan(
               text: "A",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[14])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[14])),
           TextSpan(
               text: "L ",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[4])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[4])),
           TextSpan(
               text: "^",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[5])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[5])),
           TextSpan(
               text: "u",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[6])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[6])),
           TextSpan(
               text: "p",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[14])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[14])),
           TextSpan(
               text: "^",
               style: TextStyle(
-                  fontFamily: "Ribeye",
-                  fontSize: 40,
-                  color: designColors[4])),
+                  fontFamily: "Ribeye", fontSize: 40, color: designColors[4])),
         ]));
   }
 }
-

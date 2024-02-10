@@ -48,13 +48,27 @@ class HomeScreen extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 25),
           height: 780,
           child: ScrollConfiguration(
-            behavior: ScrollConfiguration.of(context).copyWith(scrollbars: false), //This is used to hide the scroll bar from the sides of the screen
+            behavior: ScrollConfiguration.of(context).copyWith(
+                scrollbars:
+                    false), //This is used to hide the scroll bar from the sides of the screen
             child: ListView(
               children: const [
                 SizedBox(height: 53),
-                Course(courseName: "Logical Reasoning", courseCrowns: 18,firstUnitProgress: 0.5, noOfUnits: 3),
-                Course(courseName: "Artistic thinking", courseCrowns: 35, firstUnitProgress: 0.85, noOfUnits: 4),
-                Course(courseName: "Verbal Skills", courseCrowns: 3, firstUnitProgress: 0.2, noOfUnits: 2)
+                Course(
+                    courseName: "Logical Reasoning",
+                    courseCrowns: 18,
+                    firstUnitProgress: 0.5,
+                    noOfUnits: 3),
+                Course(
+                    courseName: "Artistic thinking",
+                    courseCrowns: 35,
+                    firstUnitProgress: 0.85,
+                    noOfUnits: 4),
+                Course(
+                    courseName: "Verbal Skills",
+                    courseCrowns: 3,
+                    firstUnitProgress: 0.2,
+                    noOfUnits: 2)
               ],
             ),
           ),
@@ -63,5 +77,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-

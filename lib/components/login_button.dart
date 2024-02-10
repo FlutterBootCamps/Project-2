@@ -10,13 +10,16 @@ class LoginButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      style:  ButtonStyle(
-        minimumSize: const MaterialStatePropertyAll(Size(316, 58)),
-        shadowColor: const MaterialStatePropertyAll(Colors.transparent),
-        backgroundColor: MaterialStatePropertyAll(designColors[3]),
-      ),
+        style: ButtonStyle(
+          minimumSize: const MaterialStatePropertyAll(Size(316, 58)),
+          shadowColor: const MaterialStatePropertyAll(Colors.transparent),
+          backgroundColor: MaterialStatePropertyAll(designColors[3]),
+        ),
         onPressed: () {
-          Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const NavigationScreen()), (route) => false);
+          Navigator.pushAndRemoveUntil(
+              context,
+              MaterialPageRoute(builder: (context) => const NavigationScreen()),
+              (route) => false);
         },
         child: const Text(
           "GO",

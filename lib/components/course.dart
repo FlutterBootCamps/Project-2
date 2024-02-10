@@ -6,7 +6,11 @@ import 'package:flutter/material.dart';
 
 class Course extends StatelessWidget {
   const Course({
-    super.key, required this.courseName, required this.courseCrowns, required this.firstUnitProgress, required this.noOfUnits,
+    super.key,
+    required this.courseName,
+    required this.courseCrowns,
+    required this.firstUnitProgress,
+    required this.noOfUnits,
   });
 
   final String courseName;
@@ -25,7 +29,7 @@ class Course extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-               Text(
+              Text(
                 courseName,
                 style: const TextStyle(fontSize: 35),
               ),
@@ -45,7 +49,17 @@ class Course extends StatelessWidget {
               mainAxisSpacing: 21,
               childAspectRatio: 1 / 0.79,
               scrollDirection: Axis.horizontal,
-              children: List.generate(noOfUnits, (index) => (index == 0) ? Unit(unitNumber: 1, unitProgress: firstUnitProgress, courseName: courseName, crownNumber: courseCrowns,) : const LockedUnit(), ),
+              children: List.generate(
+                noOfUnits,
+                (index) => (index == 0)
+                    ? Unit(
+                        unitNumber: 1,
+                        unitProgress: firstUnitProgress,
+                        courseName: courseName,
+                        crownNumber: courseCrowns,
+                      )
+                    : const LockedUnit(),
+              ),
             ),
           ),
         ],

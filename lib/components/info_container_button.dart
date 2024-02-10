@@ -3,7 +3,11 @@ import 'package:flutter/material.dart';
 
 class InfoContainerButton extends StatelessWidget {
   const InfoContainerButton({
-    super.key, required this.image, required this.title, required this.description, required this.buttonText,
+    super.key,
+    required this.image,
+    required this.title,
+    required this.description,
+    required this.buttonText,
   });
 
   final String image;
@@ -16,8 +20,7 @@ class InfoContainerButton extends StatelessWidget {
     return Container(
       width: 378,
       height: 228,
-      padding: const EdgeInsets.only(
-          left: 29, right: 28, top: 17, bottom: 24),
+      padding: const EdgeInsets.only(left: 29, right: 28, top: 17, bottom: 24),
       decoration: BoxDecoration(
           borderRadius: const BorderRadius.all(Radius.circular(20)),
           border: Border.all(width: 3, color: designColors[20])),
@@ -42,8 +45,7 @@ class InfoContainerButton extends StatelessWidget {
                   ),
                   Text(
                     description,
-                    style: TextStyle(
-                        fontSize: 20, color: designColors[0]),
+                    style: TextStyle(fontSize: 20, color: designColors[0]),
                   )
                 ],
               ),
@@ -54,17 +56,27 @@ class InfoContainerButton extends StatelessWidget {
           height: 22,
         ),
         Container(
-          decoration: BoxDecoration(boxShadow: [BoxShadow(color: designColors[15], blurRadius: 10, offset: const Offset(0, 4))]),
+          decoration: BoxDecoration(boxShadow: [
+            BoxShadow(
+                color: designColors[15],
+                blurRadius: 10,
+                offset: const Offset(0, 4))
+          ]),
           child: ElevatedButton(
-              onPressed: () {},
-              style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(designColors[15]), minimumSize: const MaterialStatePropertyAll(Size(321, 47)), shape: MaterialStateProperty.all(const RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(12))))),
-              child: Text(
-                buttonText,
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w500,
-                    color: designColors[1]),
-              ),),
+            onPressed: () {},
+            style: ButtonStyle(
+                backgroundColor: MaterialStatePropertyAll(designColors[15]),
+                minimumSize: const MaterialStatePropertyAll(Size(321, 47)),
+                shape: MaterialStateProperty.all(const RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(12))))),
+            child: Text(
+              buttonText,
+              style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w500,
+                  color: designColors[1]),
+            ),
+          ),
         )
       ]),
     );

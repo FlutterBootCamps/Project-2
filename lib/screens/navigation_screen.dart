@@ -13,8 +13,7 @@ class NavigationScreen extends StatefulWidget {
 }
 
 class _NavigationScreenState extends State<NavigationScreen> {
-
-  int selectedIndex = 2;
+  int selectedIndex = 0;
   List<Widget> screens = [
     const HomeScreen(),
     const ChallengesScreen(),
@@ -31,24 +30,36 @@ class _NavigationScreenState extends State<NavigationScreen> {
         height: 88,
         padding: const EdgeInsets.symmetric(horizontal: 30.58),
         child: BottomNavigationBar(
-          
-          elevation: 0.0,
-          type: BottomNavigationBarType.fixed,
-          backgroundColor: designColors[9],
-          showSelectedLabels: false,
-          showUnselectedLabels: false,
-          onTap: (index) {
-            selectedIndex = index;
-            setState(() {});
-          },
-          currentIndex: selectedIndex,
-          items: [
-          BottomNavigationBarItem(icon: Image.asset("icons/home_disabled.png"), label: "", activeIcon: Image.asset("icons/home_enabled.png")),
-          BottomNavigationBarItem(icon: Image.asset("icons/objective_disabled.png",), label: "", activeIcon: Image.asset("icons/objective_enabled.png")),
-          BottomNavigationBarItem(icon: Image.asset("icons/people_disabled.png"), label: "", activeIcon: Image.asset("icons/people_enabled.png")),
-          BottomNavigationBarItem(icon: Image.asset("icons/settings_disabled.png"), label: "", activeIcon: Image.asset("icons/settings_enabled.png")),
-        
-        ]),
+            elevation: 0.0,
+            type: BottomNavigationBarType.fixed,
+            backgroundColor: designColors[9],
+            showSelectedLabels: false,
+            showUnselectedLabels: false,
+            onTap: (index) {
+              selectedIndex = index;
+              setState(() {});
+            },
+            currentIndex: selectedIndex,
+            items: [
+              BottomNavigationBarItem(
+                  icon: Image.asset("icons/home_disabled.png"),
+                  label: "",
+                  activeIcon: Image.asset("icons/home_enabled.png")),
+              BottomNavigationBarItem(
+                  icon: Image.asset(
+                    "icons/objective_disabled.png",
+                  ),
+                  label: "",
+                  activeIcon: Image.asset("icons/objective_enabled.png")),
+              BottomNavigationBarItem(
+                  icon: Image.asset("icons/people_disabled.png"),
+                  label: "",
+                  activeIcon: Image.asset("icons/people_enabled.png")),
+              BottomNavigationBarItem(
+                  icon: Image.asset("icons/settings_disabled.png"),
+                  label: "",
+                  activeIcon: Image.asset("icons/settings_enabled.png")),
+            ]),
       ),
     );
   }

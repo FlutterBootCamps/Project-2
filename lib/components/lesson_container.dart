@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 
 class LessonContainer extends StatelessWidget {
   const LessonContainer({
-    super.key, required this.image, required this.label, required this.crownText,
+    super.key,
+    required this.image,
+    required this.label,
+    required this.crownText,
   });
 
   final String image;
@@ -20,15 +23,13 @@ class LessonContainer extends StatelessWidget {
             height: 130,
             decoration: BoxDecoration(
                 color: designColors[13],
-                borderRadius:
-                    const BorderRadius.all(Radius.circular(70))),
+                borderRadius: const BorderRadius.all(Radius.circular(70))),
           ),
           Container(
             width: 110,
             height: 110,
             decoration: BoxDecoration(
-                borderRadius:
-                    const BorderRadius.all(Radius.circular(60)),
+                borderRadius: const BorderRadius.all(Radius.circular(60)),
                 color: designColors[19],
                 border: Border.all(
                   width: 6,
@@ -42,7 +43,7 @@ class LessonContainer extends StatelessWidget {
               "icons/crown_bordered_2.png",
             ),
           ),
-           Padding(
+          Padding(
             padding: const EdgeInsets.only(top: 65, left: 100),
             child: Text(
               crownText,
@@ -51,8 +52,7 @@ class LessonContainer extends StatelessWidget {
         ]),
         Text(
           label,
-          style:
-              const TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+          style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
         )
       ],
     );

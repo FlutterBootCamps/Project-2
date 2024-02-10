@@ -6,7 +6,9 @@ class IconTextContainer extends StatelessWidget {
       required this.width,
       required this.image,
       required this.color,
-      required this.padding, required this.text, required this.fontSize});
+      required this.padding,
+      required this.text,
+      required this.fontSize});
 
   final double width;
   final Widget image;

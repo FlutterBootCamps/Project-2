@@ -3,17 +3,21 @@ import 'package:flutter/material.dart';
 
 class InputField extends StatelessWidget {
   const InputField({
-    super.key, required this.hint,
+    super.key,
+    required this.hint, required this.isPassword,
   });
 
   final String hint;
+  final bool isPassword;
 
   @override
   Widget build(BuildContext context) {
-    return  SizedBox(
+    return SizedBox(
         width: 316,
         height: 60,
         child: TextField(
+          obscureText: isPassword,
+          obscuringCharacter: "*",
           decoration: InputDecoration(
               contentPadding: const EdgeInsets.all(20),
               fillColor: designColors[1],

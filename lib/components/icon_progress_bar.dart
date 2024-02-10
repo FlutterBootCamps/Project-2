@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 
 class IconProgressBar extends StatelessWidget {
   const IconProgressBar({
-    super.key, required this.iconImage, required this.progress, required this.padding,
+    super.key,
+    required this.iconImage,
+    required this.progress,
+    required this.padding,
   });
 
   final String iconImage;
@@ -12,28 +15,25 @@ class IconProgressBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-        alignment: Alignment.centerLeft,
-        children: [
-          Padding(
-            padding: padding,
-            child: LinearProgressIndicator(
-              backgroundColor: designColors[13],
-              color: designColors[14],
-              borderRadius: const BorderRadius.all(
-                  Radius.circular(30)),
-              minHeight: 14,
-              value: progress,
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(
-              bottom: 10,
-            ),
-            child: Image.asset(
-              iconImage,
-            ),
-          )
-        ]);
+    return Stack(alignment: Alignment.centerLeft, children: [
+      Padding(
+        padding: padding,
+        child: LinearProgressIndicator(
+          backgroundColor: designColors[13],
+          color: designColors[14],
+          borderRadius: const BorderRadius.all(Radius.circular(30)),
+          minHeight: 14,
+          value: progress,
+        ),
+      ),
+      Padding(
+        padding: const EdgeInsets.only(
+          bottom: 10,
+        ),
+        child: Image.asset(
+          iconImage,
+        ),
+      )
+    ]);
   }
 }

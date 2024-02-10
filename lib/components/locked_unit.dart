@@ -11,15 +11,15 @@ class LockedUnit extends StatelessWidget {
     return Container(
       width: 179,
       height: 227,
-      padding: const EdgeInsets.only(
-          right: 12, left: 12, top: 22, bottom: 10),
+      padding: const EdgeInsets.only(right: 12, left: 12, top: 22, bottom: 10),
       decoration: BoxDecoration(
-        borderRadius:
-            const BorderRadius.all(Radius.circular(20)),
+        borderRadius: const BorderRadius.all(Radius.circular(20)),
         color: designColors[12],
       ),
       child: Center(
-        child: Image.asset("icons/lock_big.png",),
+        child: Image.asset(
+          "icons/lock_big.png",
+        ),
       ),
     );
   }

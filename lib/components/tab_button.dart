@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 
 class TabButton extends StatelessWidget {
   const TabButton({
-    super.key, required this.label, required this.isSelected,
+    super.key,
+    required this.label,
+    required this.isSelected,
   });
 
   final String label;
@@ -19,7 +21,9 @@ class TabButton extends StatelessWidget {
         decoration: BoxDecoration(
             border: Border(
                 bottom: BorderSide(
-                    width: 3, color: (isSelected) ? designColors[15] : designColors[20]))),
+                    width: 3,
+                    color:
+                        (isSelected) ? designColors[15] : designColors[20]))),
         child: Center(
             child: Text(
           label,
@@ -32,4 +36,3 @@ class TabButton extends StatelessWidget {
     );
   }
 }
-

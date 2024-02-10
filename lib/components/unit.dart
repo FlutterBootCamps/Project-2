@@ -5,7 +5,11 @@ import 'package:flutter/material.dart';
 
 class Unit extends StatelessWidget {
   const Unit({
-    super.key, required this.unitNumber, required this.unitProgress, required this.crownNumber, required this.courseName,
+    super.key,
+    required this.unitNumber,
+    required this.unitProgress,
+    required this.crownNumber,
+    required this.courseName,
   });
 
   final int unitNumber;
@@ -17,16 +21,23 @@ class Unit extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.push(context, MaterialPageRoute(builder: (context) => UnitDetailsScreen(courseName: courseName, noOfCrowns: crownNumber, progress: unitProgress,),));
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => UnitDetailsScreen(
+                courseName: courseName,
+                noOfCrowns: crownNumber,
+                progress: unitProgress,
+              ),
+            ));
       },
       child: Container(
         width: 179,
         height: 227,
-        padding: const EdgeInsets.only(
-            right: 12, left: 12, top: 22, bottom: 10),
+        padding:
+            const EdgeInsets.only(right: 12, left: 12, top: 22, bottom: 10),
         decoration: BoxDecoration(
-          borderRadius:
-              const BorderRadius.all(Radius.circular(20)),
+          borderRadius: const BorderRadius.all(Radius.circular(20)),
           color: designColors[12],
         ),
         child: Column(
