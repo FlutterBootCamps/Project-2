@@ -53,3 +53,8 @@ This is where the user should be able to see their settings (when implmented).
 <img width="162" alt="MentalUp_8" src="https://github.com/hmody360/Project-2/assets/98014312/31525742-a445-4145-a681-c45851af664c">
 <br>
 curruntly it displays an under construction photo.
+
+### P.S
+- best used in W: 428, H: 926 as it was made according to the Figma design screens
+- Home Page screen might have an error when running on chrome on the first run, Restart the app using 'r' or 'R' and will work perfectly.
+- Enjoy! and thank you for taking your time reading and viewing this.
