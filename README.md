@@ -1,18 +1,35 @@
 # Flutter UI Implementation Project
 
 ## Overview
-Greetings to the Flutter UI Implementation project! In this project, you will be working with the Flutter framework to implement a set of user interfaces using a specific list of widgets. The goal is to enhance your proficiency in Flutter development and UI implementation.
+Welcome to my Flutter UI implementation project. I'm excited to present my work and hope it meets your expectations.
+
+## Pages
+Login Page
+
+![Screenshot 2024-02-10 191541](https://github.com/Saadxf/Project-2/assets/123157306/f05fb175-c4c3-4be0-95a9-55d8307f585a)
+
+Home Page
+
+![Screenshot 2024-02-10 191610](https://github.com/Saadxf/Project-2/assets/123157306/6d020add-1b0a-462e-9eb2-527693c8a992)
+![Screenshot 2024-02-10 191632](https://github.com/Saadxf/Project-2/assets/123157306/b203979c-9ec1-4c91-8573-7716492b1cdf)
+
+Challenges
+
+![Screenshot 2024-02-10 191741](https://github.com/Saadxf/Project-2/assets/123157306/b7daa8e3-f9fb-4e52-b27e-0b2b93ee7714)
+
+Profile Page
+
+![Screenshot 2024-02-10 191800](https://github.com/Saadxf/Project-2/assets/123157306/fd1a1969-a1b6-4bb7-93b8-3601ead5d410)
+![Screenshot 2024-02-10 191809](https://github.com/Saadxf/Project-2/assets/123157306/4441f0af-8b7f-4a2f-a5c3-418076ab2df2)
+
+Files
 
 
-## UI to Implement
-You are required to implement the following Figma design user interfaces:
-
-- [Figma Design - Educational Kids Game](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
+![Screenshot 2024-02-10 193657](https://github.com/Saadxf/Project-2/assets/123157306/bd5bb1f0-aa65-47c7-8d0d-e1e9c791737c)
+![Screenshot 2024-02-10 193725](https://github.com/Saadxf/Project-2/assets/123157306/cdd4ab50-2a08-4597-aced-c4163249c244)
 
 
-
-## Mandatory List of Widgets
-You must use the following list of widgets in your implementations:
+## library & Widgets
 - Column
 - Row
 - ListView or related widgets
@@ -21,40 +38,15 @@ You must use the following list of widgets in your implementations:
 - Icon
 - Button
 - Image
+- BottomNavigationBar
+- Divider
+- Padding
+- SizedBox
+- CustomPainter
+- .....
 
+library
+-ionicons
+-flutter_svg
 
-
-## Requirements
-1. **Code Organization:**
-    - Organize your Flutter project in a clean and structured manner.
-    
-2. **Widget Usage:**
-    - Ensure that you use the specified list of widgets for UI implementation.
-    
-3. **Navigation:**
-    - Include navigation between different screens or sections within your app.
-
-
-
-## Submission Guidelines
-You will submit your project on GitHub by following these guidelines:
-1. Fork the Repository & Clone it
-2. Create a New Branch with your name, in this format: (First name - Last name), i.e. Nasser-GH
-3. Commit the changes frequently and push it
-4. Finally, create a pull request to the original repository
-
-**Note:**
-- This is an individual assignment, collaboration is not allowed, and each student should submit their unique work.
-- Be sure to include screenshots of the implemented UIs in your README file in your project
-
-
-
-## Deadline 
-The deadline for submitting the project is 2024 Feb 11 at 9:59 AM
-
-
-## Additional Notes
-- Reach out for clarification or assistance if needed.
-- Have an enjoyable coding journey!
-
-Best of luck!
+Thank you for reviewing my project!
