@@ -1,60 +1,15 @@
-# Flutter UI Implementation Project
+login page
+<img width="318" alt="Screenshot 1445-08-01 at 5 45 40 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/d3cabb2b-a494-4746-8357-96d3aaa3b37d">
 
-## Overview
-Greetings to the Flutter UI Implementation project! In this project, you will be working with the Flutter framework to implement a set of user interfaces using a specific list of widgets. The goal is to enhance your proficiency in Flutter development and UI implementation.
+home page
+<img width="322" alt="Screenshot 1445-08-01 at 5 45 58 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/4ce97628-c1fb-47e8-a82a-7a2b57e8ffdd">
+<img width="319" alt="Screenshot 1445-08-01 at 5 46 12 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/0a48146a-a734-498b-9e98-3c4c60a387a5">
+Verbal skills page
+<img width="327" alt="Screenshot 1445-08-01 at 9 36 26 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/0100a756-b20c-40c9-8af8-ce468f9c2af1">
 
+challenges page
+<img width="317" alt="Screenshot 1445-08-01 at 5 46 27 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/85a3233d-7bcc-4b47-ad4b-575e4b2e221d">
 
-## UI to Implement
-You are required to implement the following Figma design user interfaces:
+profile page
+<img width="317" alt="Screenshot 1445-08-01 at 5 46 39 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/a1badcc8-3194-43da-a46e-7b0ea719fc72">
 
-- [Figma Design - Educational Kids Game](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
-
-
-
-## Mandatory List of Widgets
-You must use the following list of widgets in your implementations:
-- Column
-- Row
-- ListView or related widgets
-- AppBar 
-- TextField
-- Icon
-- Button
-- Image
-
-
-
-## Requirements
-1. **Code Organization:**
-    - Organize your Flutter project in a clean and structured manner.
-    
-2. **Widget Usage:**
-    - Ensure that you use the specified list of widgets for UI implementation.
-    
-3. **Navigation:**
-    - Include navigation between different screens or sections within your app.
-
-
-
-## Submission Guidelines
-You will submit your project on GitHub by following these guidelines:
-1. Fork the Repository & Clone it
-2. Create a New Branch with your name, in this format: (First name - Last name), i.e. Nasser-GH
-3. Commit the changes frequently and push it
-4. Finally, create a pull request to the original repository
-
-**Note:**
-- This is an individual assignment, collaboration is not allowed, and each student should submit their unique work.
-- Be sure to include screenshots of the implemented UIs in your README file in your project
-
-
-
-## Deadline 
-The deadline for submitting the project is 2024 Feb 11 at 9:59 AM
-
-
-## Additional Notes
-- Reach out for clarification or assistance if needed.
-- Have an enjoyable coding journey!
-
-Best of luck!
