@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ],
-          ),       
+          ),
         ),
 
 
@@ -151,7 +151,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Image.asset("asset/lock.png", width: 120,),     
                           ],
                         ),
-                      ),                   
+                      ),
                     ],
                   ),
 
@@ -249,7 +249,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Image.asset("asset/lock.png", width: 120,),     
                           ],
                         ),
-                      ),                   
+                      ), 
                     ],
                   ),
 
@@ -264,6 +264,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Row(
                         children: [
                           Image.asset("asset/crown.png", width:20 ),
+                          const SizedBox(width: 5,),
                           const Text(" 3/40", style: TextStyle(color: Colors.black26, fontSize: 15),),
                         ],
                       ),
@@ -350,7 +351,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Image.asset("asset/lock.png", width: 120,),     
                           ],
                         ),
-                      ),                   
+                      ), 
                     ],
                   ),
                 ],

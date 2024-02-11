@@ -25,51 +25,47 @@ class _BottomNavigationBarScreenState extends State<BottomNavigationBarScreen> {
     Color(0xff41AC68),
     Color(0XFFAB70DF),
     Color(0XFFDC3F00), 
-    Color.fromARGB(255, 73, 97, 205)
+    Color.fromARGB(255, 73, 97, 205),
     ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Colors.redAccent,
             
       body: screens[selectedScreen],
       
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.black12,
-        items:  [
-          const BottomNavigationBarItem(
-            icon: 
-            // Image.asset("asset/home.png", width: 50,),
-            Icon(Icons.home), 
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        backgroundColor: Colors.white10,
+        items: const  [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.house_rounded, size: 40,), 
             label: "Home",
             ),
           BottomNavigationBarItem(
-            icon: Image.asset("asset/challenge.png", width: 50,),
-            // Icon(Icons.golf_course_sharp), 
-            label: "Challenge"
-          ),
+            icon: Icon(Icons.ads_click, size: 40,), 
+            label: "Challenge",
+            ),
           BottomNavigationBarItem(
-            icon: Image.asset("asset/profile.png",width: 50,),
-            // Icon(Icons.person), 
+            icon: Icon(Icons.supervisor_account_sharp, size: 40,), 
             label: "Profile",
           ),
           BottomNavigationBarItem(
-            icon: Image.asset("asset/setting.png", width: 50,), 
-            // Icon(Icons.settings), 
+            icon: Icon(Icons.settings, size: 40,), 
             label: "Setting", 
           ),
         ],
         currentIndex: selectedScreen,
         onTap: (int index){
           selectedScreen = index ;
-          setState((){ 
+          setState((){            
           }); 
         },
         selectedItemColor: colors[selectedScreen],
-      ),
-
+      
+      ) ,
     );
   }
 }

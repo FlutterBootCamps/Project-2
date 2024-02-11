@@ -25,9 +25,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
       body: ListView(
         children: [
           SafeArea(
-            // padding: const EdgeInsets.symmetric(vertical:30, horizontal: 20),
             child: Column(
               children: [
+                // ----- User information ------
                 Container(
                     padding: const EdgeInsets.only(left: 10.0, bottom:20, top:20),
                     decoration: const BoxDecoration(
@@ -61,6 +61,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                   
                 Padding(padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                
                 child: Column(
                   children: [
                   const SizedBox(height: 10),
@@ -93,7 +94,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
 
                   const SizedBox(height: 25),
-                  
+
+                  // ----- Statistics -------
                   const Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
@@ -247,7 +249,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                   
                   const SizedBox(height: 25,),
-              
+
+                // ------ User friends -------
                   const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -281,7 +284,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             ),
                           ),
                           child: const Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
                             //  GestureSettings(child: 
                              InkWell(
@@ -292,18 +295,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               // },
                               child:
                                Column(
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: [
-                                  Text("FOLLOWING", style: TextStyle(fontSize: 15, color: Color(0xff02A1FB), ),
-                                                               ),
-                                ],
-                              ),
-                             ),
-                            //  ),
-                             Column(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [
+                                    Text("FOLLOWING", style: TextStyle(fontSize: 15, color: Color(0xff02A1FB), fontWeight: FontWeight.bold ),
+                                    ),
+                                  ],
+                                ),
+                               ),
+                              Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
                                children: [
-                                 Text("FOLLOWERS", style: TextStyle(fontSize: 15, ), ),
+                                 Text("FOLLOWERS", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold ), ),
                                ],
                              ),
                             ],
@@ -370,15 +372,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                       ],
                                     ),
                                 ],
-                              ),                             
+                              ), 
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children: [ Icon(Icons.arrow_forward_ios_sharp, size:20, color: Colors.black26,), ],
                               ),
                             ],
                           ),
-                         ),
-                        
+                         ),                        
                         ],
                     ),
                   ),
@@ -439,8 +440,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           ),
                           onPressed: (){}, 
                           child: 
-                          const Text("INVITE FRIENDS", style: TextStyle(color: Colors.white, fontSize: 16)),
-                                              
+                          const Text("INVITE FRIENDS", style: TextStyle(color: Colors.white, fontSize: 16)),                     
                         ),
                       ),
                       
@@ -448,17 +448,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       
                     ],
                   ),
-                ),
-              
+                ),              
               ],
             ),
           )
-      ],
-      ),
+          ],
           ),
+        ),
       ],
-     ),
-   
+     ),   
     );
   }
 }

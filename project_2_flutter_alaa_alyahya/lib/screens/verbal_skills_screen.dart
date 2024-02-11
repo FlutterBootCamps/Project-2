@@ -58,8 +58,8 @@ class VerbalSkillsScreen extends StatelessWidget {
                       const SizedBox(height: 50,),
                       Container(
                         margin: const EdgeInsets.only(top: 50, bottom: 20),
-                        padding: const EdgeInsets.all(40),
-                        height: MediaQuery.of(context).size.height * 0.18,
+                        padding: const EdgeInsets.only(top:40, bottom: 10),
+                        height: MediaQuery.of(context).size.height * 0.15,
                         width: MediaQuery.of(context).size.width * 0.48,
                         decoration: BoxDecoration(
                           color: Colors.black12,
@@ -70,16 +70,47 @@ class VerbalSkillsScreen extends StatelessWidget {
                         ),
                         child: Container(
                           padding: const EdgeInsets.only( top:10),
-                          child: Column(                        
+                          child: Column( 
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                            const Text("Unite 1", style: TextStyle(fontSize: 20)), 
-                          Row(
-                            children: [
-                              Image.asset("asset/crown.png", width: 20,),
-                          /// progress bar
-                              const Text(" 3/40 ", style: TextStyle(fontSize: 12, color: Colors.black26),),
+                              const Text("Unit 1", style: TextStyle(fontSize: 25),),                                
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Image.asset("asset/crown.png", width: 16),
+                                  Container(
+                                    margin: const EdgeInsets.all(3),
+                                    height: 10,
+                                    width: 90,
+                                    decoration:const BoxDecoration(
+                                      color: Colors.black12,
+                                      borderRadius: BorderRadius.only( 
+                                        topLeft: Radius.elliptical(400, 690), 
+                                        topRight: Radius.circular(300),
+                                        bottomRight: Radius.circular(300)
+                                      ),              
+                                    ), 
+                                    child: FractionallySizedBox(
+                                      alignment: Alignment.centerLeft,
+                                      widthFactor: 0.2,
+                                      child: Container(
+                                        decoration:
+                                          const BoxDecoration(
+                                          color:  Color(0xffECC055),
+                                          borderRadius: BorderRadius.only( 
+                                            topLeft: Radius.elliptical(400, 690), 
+                                            topRight: Radius.circular(300),
+                                            bottomRight: Radius.circular(300) 
+                                          ),
+                                          ),
+                                        ),
+                                    ),
+                                  ),  
+                                  const Text("3/40 ", style: TextStyle(fontSize: 12, color: Colors.black26),),
+                                ],
+                              ),
                             ],
-                          ),],
                           ),
                         ),
                       ),
