@@ -1,60 +1,32 @@
-# Flutter UI Implementation Project
-
-## Overview
-Greetings to the Flutter UI Implementation project! In this project, you will be working with the Flutter framework to implement a set of user interfaces using a specific list of widgets. The goal is to enhance your proficiency in Flutter development and UI implementation.
+page#1#
+![page1](https://github.com/mohammed0172000/Project-2/assets/82112256/bb31b75d-5897-4470-9ded-82094997ab90)
 
 
-## UI to Implement
-You are required to implement the following Figma design user interfaces:
-
-- [Figma Design - Educational Kids Game](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
+page#2-1#
+![page2-1](https://github.com/mohammed0172000/Project-2/assets/82112256/af7a31a1-ab53-45e4-a144-85e92d4ba395)
 
 
-
-## Mandatory List of Widgets
-You must use the following list of widgets in your implementations:
-- Column
-- Row
-- ListView or related widgets
-- AppBar 
-- TextField
-- Icon
-- Button
-- Image
+page#2-2#
+![page2-2](https://github.com/mohammed0172000/Project-2/assets/82112256/c98e0a36-1062-4281-ab5b-88c776875d50)
 
 
-
-## Requirements
-1. **Code Organization:**
-    - Organize your Flutter project in a clean and structured manner.
-    
-2. **Widget Usage:**
-    - Ensure that you use the specified list of widgets for UI implementation.
-    
-3. **Navigation:**
-    - Include navigation between different screens or sections within your app.
+page#3-1#
+![page3-1](https://github.com/mohammed0172000/Project-2/assets/82112256/8fbc02ff-b7bf-4661-9951-725dd9ad1d61)
 
 
-
-## Submission Guidelines
-You will submit your project on GitHub by following these guidelines:
-1. Fork the Repository & Clone it
-2. Create a New Branch with your name, in this format: (First name - Last name), i.e. Nasser-GH
-3. Commit the changes frequently and push it
-4. Finally, create a pull request to the original repository
-
-**Note:**
-- This is an individual assignment, collaboration is not allowed, and each student should submit their unique work.
-- Be sure to include screenshots of the implemented UIs in your README file in your project
+page#3-2#
+![page3-2](https://github.com/mohammed0172000/Project-2/assets/82112256/136c0330-2d40-47f1-8ddd-52c401f4e7d6)
 
 
+page#4-1#
+![page4-1](https://github.com/mohammed0172000/Project-2/assets/82112256/ee5b64be-379b-4a38-92ef-fc2963a52376)
 
-## Deadline 
-The deadline for submitting the project is 2024 Feb 11 at 9:59 AM
+
+page#4-2#
+![page4-2](https://github.com/mohammed0172000/Project-2/assets/82112256/3dcb92c9-0e73-4ca3-8be2-38385e5bdca3)
 
 
-## Additional Notes
-- Reach out for clarification or assistance if needed.
-- Have an enjoyable coding journey!
+page#5#
+![page5](https://github.com/mohammed0172000/Project-2/assets/82112256/c1a3df91-a8f3-49d6-8261-c096ad9df326)
 
-Best of luck!
+
