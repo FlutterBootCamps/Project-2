@@ -1,6 +1,12 @@
-![simulator_screenshot_8325A880-0872-40AE-A314-41730168F181](https://github.com/maramnaif/Project-2/assets/123784913/122e466a-dbe5-4d43-aa4c-3b318504d3b6)
-![simulator_screenshot_9F73B212-90D0-4822-BFB7-302E9F0F8DAD](https://github.com/maramnaif/Project-2/assets/123784913/37ca5ca0-db6b-4043-a121-6d7fc04217b4)
-![simulator_screenshot_CBB2F321-92E7-4A05-BC1B-C8B858D5BD8C](https://github.com/maramnaif/Project-2/assets/123784913/c58b2e1a-ba0a-4597-84c5-047b265b1e83)
-![simulator_screenshot_2DB7B72A-EEC2-48A2-AA82-F63E4944C36A](https://github.com/maramnaif/Project-2/assets/123784913/32b3bfc2-d0c7-45cd-8b9d-409498c9f662)
-![simulator_screenshot_76B9894F-2270-418C-B5F8-B464642867C9](https://github.com/maramnaif/Project-2/assets/123784913/28141111-67dc-4c12-a1f4-6171e31f3c71)
-![simulator_screenshot_BF904916-638E-4706-9762-D638ECA92846](https://github.com/maramnaif/Project-2/assets/123784913/c857a611-f23a-42df-8c6d-988f49403df3)
+login page
+<img width="318" alt="Screenshot 1445-08-01 at 5 45 40 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/d3cabb2b-a494-4746-8357-96d3aaa3b37d">
+
+home page
+<img width="322" alt="Screenshot 1445-08-01 at 5 45 58 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/4ce97628-c1fb-47e8-a82a-7a2b57e8ffdd">
+<img width="319" alt="Screenshot 1445-08-01 at 5 46 12 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/0a48146a-a734-498b-9e98-3c4c60a387a5">
+
+challenges page
+<img width="317" alt="Screenshot 1445-08-01 at 5 46 27 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/85a3233d-7bcc-4b47-ad4b-575e4b2e221d">
+
+profile page
+<img width="317" alt="Screenshot 1445-08-01 at 5 46 39 AM" src="https://github.com/maramnaif/Project-2/assets/123784913/a1badcc8-3194-43da-a46e-7b0ea719fc72">
