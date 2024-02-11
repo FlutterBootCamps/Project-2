@@ -1,60 +1,29 @@
-# Flutter UI Implementation Project
+project - 2 
 
-## Overview
-Greetings to the Flutter UI Implementation project! In this project, you will be working with the Flutter framework to implement a set of user interfaces using a specific list of widgets. The goal is to enhance your proficiency in Flutter development and UI implementation.
+log in page :
 
+<img width="363" alt="Screenshot 2024-02-11 at 5 03 01 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/bd113aae-cc04-4b34-bc2e-d0fa48ed79df">
 
-## UI to Implement
-You are required to implement the following Figma design user interfaces:
+home page:
 
-- [Figma Design - Educational Kids Game](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
-
-
-
-## Mandatory List of Widgets
-You must use the following list of widgets in your implementations:
-- Column
-- Row
-- ListView or related widgets
-- AppBar 
-- TextField
-- Icon
-- Button
-- Image
+<img width="359" alt="Screenshot 2024-02-11 at 5 03 22 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/45aaf33e-9502-4856-98c4-97d7e92b6e12">
+<img width="358" alt="Screenshot 2024-02-11 at 5 28 26 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/d1c36af2-4a39-4650-927d-11653115aa35">
 
 
+game page:
 
-## Requirements
-1. **Code Organization:**
-    - Organize your Flutter project in a clean and structured manner.
-    
-2. **Widget Usage:**
-    - Ensure that you use the specified list of widgets for UI implementation.
-    
-3. **Navigation:**
-    - Include navigation between different screens or sections within your app.
+<img width="359" alt="Screenshot 2024-02-11 at 5 22 03 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/7159a9d9-5f81-4d7e-a65f-c55b7f724e87">
+<img width="361" alt="Screenshot 2024-02-11 at 5 22 12 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/7cf04ad4-db22-465c-b7f8-381388f9cf23">
+
+challenge page:
+
+<img width="363" alt="Screenshot 2024-02-11 at 5 22 25 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/a082912a-73c9-4e75-9eb6-9cd72761bda3">
+
+profile page: 
+
+<img width="354" alt="Screenshot 2024-02-11 at 5 20 27 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/cb6a7c8d-2d42-474c-80a9-eaeccf12cf50">
+<img width="347" alt="Screenshot 2024-02-11 at 5 20 44 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/65ee205d-5682-4290-9dfb-2a0883e8980a">
 
 
 
-## Submission Guidelines
-You will submit your project on GitHub by following these guidelines:
-1. Fork the Repository & Clone it
-2. Create a New Branch with your name, in this format: (First name - Last name), i.e. Nasser-GH
-3. Commit the changes frequently and push it
-4. Finally, create a pull request to the original repository
 
-**Note:**
-- This is an individual assignment, collaboration is not allowed, and each student should submit their unique work.
-- Be sure to include screenshots of the implemented UIs in your README file in your project
-
-
-
-## Deadline 
-The deadline for submitting the project is 2024 Feb 11 at 9:59 AM
-
-
-## Additional Notes
-- Reach out for clarification or assistance if needed.
-- Have an enjoyable coding journey!
-
-Best of luck!
