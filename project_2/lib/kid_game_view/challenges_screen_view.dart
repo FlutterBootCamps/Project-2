@@ -24,11 +24,13 @@ class ChallengesScreenView extends StatelessWidget {
               padding: const EdgeInsets.only(left: 10),
               child: Row(
                 children: [
-                  Text("Achievements",style: TextStyle(fontSize: 20 ),),
+                  Text(
+                    "Achievements",
+                    style: TextStyle(fontSize: 20),
+                  ),
                 ],
               ),
-            )
-            ,
+            ),
             ChallengeContainer(
               challengeImage: "lib/image/Stuck at Home Vertical Painting 1.png",
               challengeTitle: "Complete 1000 word streak",
@@ -76,7 +78,7 @@ class ChallengeContainer extends StatelessWidget {
         height: MediaQuery.of(context).size.height * 0.18,
         child: Row(
           children: [
-            SizedBox(width: 85,height: 85, child: Image.asset(challengeImage)),
+            SizedBox(width: 85, height: 85, child: Image.asset(challengeImage)),
             RichText(
               text: TextSpan(
                 style: TextStyle(fontSize: 20),

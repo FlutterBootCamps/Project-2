@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 import 'challenges_screen_view.dart';
 import 'home_screen_view.dart';
+import 'profile_screen.dart';
 
 class BottomNavigationBarState extends StatefulWidget {
   const BottomNavigationBarState({Key? key}) : super(key: key);
 
-  static const List<Widget> _pages = <Widget>[
+  static List<Widget> _pages = <Widget>[
     HomeScreenView(),
     ChallengesScreenView(),
-    ChallengesScreenView(),
+    ProfileScreen(),
     HomeScreenView(),
-
   ];
 
   @override
@@ -25,16 +25,16 @@ class _BottomNavigationBarStateState extends State<BottomNavigationBarState> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: BottomNavigationBarState._pages.elementAt(_selectedTab),
-      bottomNavigationBar: BottomNavigationBar(
-        unselectedItemColor: Colors.grey,
-        selectedItemColor: colorMap[_selectedTab]!,
-        currentIndex: _selectedTab,
-        onTap: (value) {
-          setState(() {
-            _selectedTab = value;
-          });
-        },
+        body: BottomNavigationBarState._pages.elementAt(_selectedTab),
+        bottomNavigationBar: BottomNavigationBar(
+            unselectedItemColor: Colors.grey,
+            selectedItemColor: colorMap[_selectedTab]!,
+            currentIndex: _selectedTab,
+            onTap: (value) {
+              setState(() {
+                _selectedTab = value;
+              });
+            },
             items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(
                 icon: Icon(Icons.home),
@@ -53,7 +53,6 @@ class _BottomNavigationBarStateState extends State<BottomNavigationBarState> {
                 icon: Icon(Icons.settings),
                 label: "",
               ),
-            ])
-    );
+            ]));
   }
 }

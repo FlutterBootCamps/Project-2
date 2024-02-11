@@ -53,7 +53,8 @@ class LogInScreenView extends StatelessWidget {
                         child: const Text("GO", style: TextStyle(fontSize: 24)),
                         onPressed: () {
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => BottomNavigationBarState()));
+                              builder: (context) =>
+                                  BottomNavigationBarState()));
                           print("next page");
                         },
                         style: TextButton.styleFrom(
