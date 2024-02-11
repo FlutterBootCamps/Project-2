@@ -1,60 +1,21 @@
-# Flutter UI Implementation Project
-
-## Overview
-Greetings to the Flutter UI Implementation project! In this project, you will be working with the Flutter framework to implement a set of user interfaces using a specific list of widgets. The goal is to enhance your proficiency in Flutter development and UI implementation.
+login page
 
 
-## UI to Implement
-You are required to implement the following Figma design user interfaces:
+<img src="https://github.com/ohob745/Project-2/assets/110139139/d66209dd-8751-445e-b519-fad6c86a85a7" alt="login page">
 
-- [Figma Design - Educational Kids Game](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
+main screen
 
-
-
-## Mandatory List of Widgets
-You must use the following list of widgets in your implementations:
-- Column
-- Row
-- ListView or related widgets
-- AppBar 
-- TextField
-- Icon
-- Button
-- Image
+<img src="https://github.com/ohob745/Project-2/assets/110139139/5b74b5ff-c2e2-472a-bb30-625cbe4e7979" alt="main srceen">
 
 
+callenges page
 
-## Requirements
-1. **Code Organization:**
-    - Organize your Flutter project in a clean and structured manner.
-    
-2. **Widget Usage:**
-    - Ensure that you use the specified list of widgets for UI implementation.
-    
-3. **Navigation:**
-    - Include navigation between different screens or sections within your app.
+<img src="https://github.com/ohob745/Project-2/assets/110139139/d01e6449-ec5e-46d0-a4df-1701406203f1" alt="callenges page">
 
 
+profile page
+<img src="https://github.com/ohob745/Project-2/assets/110139139/66b24b59-c9b9-4437-bb31-0856812dc5f9" alt="profile page">
 
-## Submission Guidelines
-You will submit your project on GitHub by following these guidelines:
-1. Fork the Repository & Clone it
-2. Create a New Branch with your name, in this format: (First name - Last name), i.e. Nasser-GH
-3. Commit the changes frequently and push it
-4. Finally, create a pull request to the original repository
+lessons page
+<img src="https://github.com/ohob745/Project-2/assets/110139139/580fc77c-e731-4af2-b96e-f6aad6648606" alt="lessons page">
 
-**Note:**
-- This is an individual assignment, collaboration is not allowed, and each student should submit their unique work.
-- Be sure to include screenshots of the implemented UIs in your README file in your project
-
-
-
-## Deadline 
-The deadline for submitting the project is 2024 Feb 11 at 9:59 AM
-
-
-## Additional Notes
-- Reach out for clarification or assistance if needed.
-- Have an enjoyable coding journey!
-
-Best of luck!
