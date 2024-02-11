@@ -1,16 +1,6 @@
-# maram_project_2
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![simulator_screenshot_8325A880-0872-40AE-A314-41730168F181](https://github.com/maramnaif/Project-2/assets/123784913/122e466a-dbe5-4d43-aa4c-3b318504d3b6)
+![simulator_screenshot_9F73B212-90D0-4822-BFB7-302E9F0F8DAD](https://github.com/maramnaif/Project-2/assets/123784913/37ca5ca0-db6b-4043-a121-6d7fc04217b4)
+![simulator_screenshot_CBB2F321-92E7-4A05-BC1B-C8B858D5BD8C](https://github.com/maramnaif/Project-2/assets/123784913/c58b2e1a-ba0a-4597-84c5-047b265b1e83)
+![simulator_screenshot_2DB7B72A-EEC2-48A2-AA82-F63E4944C36A](https://github.com/maramnaif/Project-2/assets/123784913/32b3bfc2-d0c7-45cd-8b9d-409498c9f662)
+![simulator_screenshot_76B9894F-2270-418C-B5F8-B464642867C9](https://github.com/maramnaif/Project-2/assets/123784913/28141111-67dc-4c12-a1f4-6171e31f3c71)
+![simulator_screenshot_BF904916-638E-4706-9762-D638ECA92846](https://github.com/maramnaif/Project-2/assets/123784913/c857a611-f23a-42df-8c6d-988f49403df3)
