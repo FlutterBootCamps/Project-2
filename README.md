@@ -1,60 +1,27 @@
 # Flutter UI Implementation Project
 
-## Overview
-Greetings to the Flutter UI Implementation project! In this project, you will be working with the Flutter framework to implement a set of user interfaces using a specific list of widgets. The goal is to enhance your proficiency in Flutter development and UI implementation.
+Game appliction for kids.
+
+1- Login Screen:
+
+<img width="146" alt="login_screen" src="https://github.com/AlaaMYahya/Project-2/assets/129466098/76c9a262-5aa6-4345-9ff3-07bb4980ce38">
+
+2- Home Screen:
+
+<img width="144" alt="homeScreen" src="https://github.com/AlaaMYahya/Project-2/assets/129466098/1c1fa888-89df-4810-b12c-b6f718deafbd">
+
+3- Verbla Skills 'part of game':
 
 
-## UI to Implement
-You are required to implement the following Figma design user interfaces:
-
-- [Figma Design - Educational Kids Game](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
+<img width="145" alt="verbalSkillsScreen" src="https://github.com/AlaaMYahya/Project-2/assets/129466098/5e70c8c0-937c-451a-9e4f-66c1a2c3cb61">
 
 
-
-## Mandatory List of Widgets
-You must use the following list of widgets in your implementations:
-- Column
-- Row
-- ListView or related widgets
-- AppBar 
-- TextField
-- Icon
-- Button
-- Image
+4- Challenges Screen:
 
 
+<img width="145" alt="challengeScreen" src="https://github.com/AlaaMYahya/Project-2/assets/129466098/85e47ae5-0d55-444f-a430-b9681c271b80">
 
-## Requirements
-1. **Code Organization:**
-    - Organize your Flutter project in a clean and structured manner.
-    
-2. **Widget Usage:**
-    - Ensure that you use the specified list of widgets for UI implementation.
-    
-3. **Navigation:**
-    - Include navigation between different screens or sections within your app.
+5- Profile Screen:
 
 
-
-## Submission Guidelines
-You will submit your project on GitHub by following these guidelines:
-1. Fork the Repository & Clone it
-2. Create a New Branch with your name, in this format: (First name - Last name), i.e. Nasser-GH
-3. Commit the changes frequently and push it
-4. Finally, create a pull request to the original repository
-
-**Note:**
-- This is an individual assignment, collaboration is not allowed, and each student should submit their unique work.
-- Be sure to include screenshots of the implemented UIs in your README file in your project
-
-
-
-## Deadline 
-The deadline for submitting the project is 2024 Feb 11 at 9:59 AM
-
-
-## Additional Notes
-- Reach out for clarification or assistance if needed.
-- Have an enjoyable coding journey!
-
-Best of luck!
+<img width="148" alt="profileScreen" src="https://github.com/AlaaMYahya/Project-2/assets/129466098/bbd05a74-727b-4ab8-9e41-d5ba9f5480ff">
