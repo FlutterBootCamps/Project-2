@@ -1,11 +1,14 @@
 project - 2 
 
 log in page :
+
 <img width="363" alt="Screenshot 2024-02-11 at 5 03 01 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/bd113aae-cc04-4b34-bc2e-d0fa48ed79df">
 
 home page:
 
 <img width="359" alt="Screenshot 2024-02-11 at 5 03 22 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/45aaf33e-9502-4856-98c4-97d7e92b6e12">
+<img width="358" alt="Screenshot 2024-02-11 at 5 28 26 AM" src="https://github.com/shaimaathu/Project-2/assets/155615972/d1c36af2-4a39-4650-927d-11653115aa35">
+
 
 game page:
 
